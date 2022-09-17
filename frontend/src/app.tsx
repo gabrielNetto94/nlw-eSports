@@ -1,20 +1,10 @@
-interface ButtonProps {
-  title: string
-}
+function App() {
 
-function Button({title}: ButtonProps) {
   return (
     <>
-      <button>{title}</button>
+    <h1>Hello world</h1>
     </>
-  );
+  )
 }
 
-export function App() {
-  return (
-    <>
-      <h1>Hello world</h1>
-      <Button title="Send" />
-    </>
-  );
-}
+export default App
