@@ -15,7 +15,6 @@ function App() {
         </span>
         está aqui.
       </h1>
-    <h1>teste</h1>
       <div className="grid grid-cols-6 gap-6"></div>
         <a href="" className="">
 
