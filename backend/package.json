@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "build": "tsc",
-    "dev":"ts-node-dev src/index.ts",
+    "dev":"  src/index.ts",
+    "render":"ts-node --transpile-only src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
