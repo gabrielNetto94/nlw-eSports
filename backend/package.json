@@ -5,18 +5,20 @@
   "main": "src/index.js",
   "scripts": {
     "build": "tsc",
-    "start":"  src/index.ts",
-    "render":"ts-node --transpile-only src/index.ts",
+    "start": "ts-node --transpile-only src/index.ts",
+    "render": "ts-node --transpile-only src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^4.3.1",
     "express": "^4.18.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.14",
+    "prisma": "^4.3.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.8.3"
   }
