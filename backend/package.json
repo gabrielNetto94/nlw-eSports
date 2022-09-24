@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node --transpile-only src/index.ts",
+    "start": "ts-node-dev --respawn --transpile-only src/index.ts",
     "render": "ts-node --transpile-only src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
